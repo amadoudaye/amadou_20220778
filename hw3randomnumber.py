@@ -5,8 +5,8 @@ try:
     seconds = days * 24 * 60 * 60
 
     print(f"{days} days is equal to:")
-    print(f"{minutes} minutes")
     print(f"{seconds} seconds")
+    print(f"{minutes} minutes")
 
 except ValueError:
     print("Invalid input. Please enter a numeric value.")
