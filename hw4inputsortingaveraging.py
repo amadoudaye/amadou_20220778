@@ -22,5 +22,3 @@ print("Updated list:", sorted_numbers)
 if sorted_numbers:
     average = sum(sorted_numbers) / len(sorted_numbers)
     print(f"Average of remaining numbers: {average:.2f}")
-else:
-    print("No numbers left to calculate the average.")
