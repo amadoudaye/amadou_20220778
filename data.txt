@@ -1,0 +1,5 @@
+This is a normal line.
+An ERROR occurred while processing the file.
+Everything is fine.
+Another error was found in the log.
+This line has no issues.
