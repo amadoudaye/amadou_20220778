@@ -1,6 +1,8 @@
-import hw8_temperature
+# main.py
 
-def hw8_main():
+import temperature
+
+def main():
     try:
         celsius = float(input("Enter temperature in Celsius: "))
         fahrenheit = float(input("Enter temperature in Fahrenheit: "))
@@ -13,5 +15,5 @@ def hw8_main():
     except ValueError:
         print("Please enter a valid number.")
 
-if __name__ == "__hw8_main__":
-    hw8_main()
+if __name__ == "__main__":
+    main()
